@@ -18,6 +18,6 @@ data = data.drop(columns=['gender','location_type'])
 #converting the cleaned data to csv
 data.to_csv("cleaned_data.csv", index = False)
 
-print(data.shape)
+
 
 
